@@ -10,9 +10,9 @@
 
 <button on:click={handleClick}>
 {#if $mirror}
-Text will be mirrored!
+Text wordt gespiegeld!
 {:else}
-Text will not be mirrored
+Text wordt niet gespiegeld!
 {/if}
 </button>
 
